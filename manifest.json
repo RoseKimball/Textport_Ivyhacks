@@ -1,0 +1,17 @@
+{
+  "name": "Textport",
+  "version": "1.0",
+  "manifest_version": 2,
+
+  "description": "Copy-pasting reimagined!",
+  "icons": {
+    "128": "texport.png"
+  },
+
+  "browser_action": {
+    "default_title": "Copy-pasting reimagined!",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": ["http://*/*", "https://*/*"]
+}
